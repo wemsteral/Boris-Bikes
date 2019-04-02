@@ -4,5 +4,10 @@ A program that will emulate all the docking stations, bikes, and infrastructure 
 Objects | Messages
 -------- | -------
 Person |
-Bike | bike_condition
-Docking Station | view_by_bike_condition
+Bike | bike_condition?
+Docking Station | release_bike
+
+### Domain Model
+Bike --> working? --> true/false
+├── if true --> DockingStation --> release_bike --> a Bike
+└── if false --> Bike (start)
