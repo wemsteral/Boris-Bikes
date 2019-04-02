@@ -5,4 +5,4 @@ Objects | Messages
 -------- | -------
 Person |
 Bike | bike_condition
-Docking Station | release_bike
+Docking Station | view_by_bike_condition
